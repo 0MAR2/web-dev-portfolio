@@ -1,0 +1,117 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background color and set text color */
+body {
+    background-color: #9DC3A7;
+    color: #002C40;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #002C40;
+    color: #B2D6BC;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #B2D6BC;
+}
+.nav-links a:hover {
+    font-size: larger;
+}
+
+/* Style the sections */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    background-color: #B2D6BC;
+    margin: 1rem 0;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.projects{
+    padding-left: 50%;
+    position:absolute;
+}
+.projects:hover{
+    opacity:0.5;
+}
+.icons{
+    position: absolute;
+}
+.username{
+    margin-left:2.5rem;
+    padding-top: 6px;
+    color:#236372;
+    
+}
+.container a{
+    text-decoration: none;
+    color:#236372;
+}
+.username:hover,.container a:hover{
+    color:#618B6B;
+}
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #002C40;
+    color: #B2D6BC;
+    padding: 1rem 0;
+}
+
+/* Style the portfolio projects */
+.project {
+    margin: 2rem 0;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 1rem 0;
+    }
+}
